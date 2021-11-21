@@ -51,6 +51,12 @@ To deploy the app, first navigate to the newly created directory:
 
 `cd ionic-angular-tutorial`
 
+Install dependencies:
+
+```
+npm install
+```
+
 Now you can deploy this app to Jekyo by running: 
 
 `jekyo deploy`
@@ -91,6 +97,11 @@ This specifies necessary host and port variables for Jekyo and disables Angular'
 git add package.json
 git commit -m "modified start line in package.json"
 ```
+Install dependencies:
+
+```
+npm install
+```
 
 ### Create an empty Jekyo app:
 
@@ -113,6 +124,7 @@ Run `jekyo link` to link your local app to the remote Jekyo app. Select 'my-ioni
 ? Select application (Use arrow keys)
 ❯ my-ionic-angular-app
 ```
+
 ### Now you can deploy this app to Jekyo by running: 
 
 `jekyo deploy`
